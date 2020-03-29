@@ -1,8 +1,6 @@
 def badge_maker(name)
-  "Hello, my name is #{name}."
+  return "Hello, my name is #{name}."
 end
-
-speakers = %w(Edsger Ada Charles Alan Grace Linus Matz)
 
 def batch_badge_creator(speakers)
   badge_messages = []
